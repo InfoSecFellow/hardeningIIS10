@@ -16,7 +16,7 @@ There are two security controls that only validate the IIS configuration; if nec
 
 There are two main options in the tool:
 
-**- Hardening Deployment:** deploy the security controls.
+**- Hardening Deployment:** deploy the security controls.  
 **- Hardening Rollback:** perform the rollback of the security controls.
 
 The **Run All** option applies to both **Deployment** and **Rollback**, in the same way as the **Run Selected** option.
@@ -120,8 +120,7 @@ CLI tool was created to run in the Windows Server core.
 - Have sure you have the python installed in your machine and have sure you have virtual env configured in python.
 - If you want to make changes and the code, feel free to do this. 
 
-To compile the code just run this command:
-  
+ 
 # Compiling HardeningIIS10 in CLI version (Windows Server Core)
 pyinstaller --onefile --console --clean --noupx --name CLI_HardeningIIS10 CLI_HardeningIIS10_v1.0.py
 
