@@ -125,6 +125,6 @@ CLI tool was created to run in the Windows Server core.
 pyinstaller --onefile --console --clean --noupx --name CLI_HardeningIIS10 CLI_HardeningIIS10_v1.0.py
 
 # Compiling HardeningIIS10 in GUI version (Windows Server GUI)
-pyinstaller --onefile --console --clean --noupx --name GUI_HardeningIIS10 CLI_HardeningIIS10_v1.0.py
+pyinstaller --onefile --console --clean --noupx --name GUI_HardeningIIS10 GUI_HardeningIIS10_v1.0.py
 
 
