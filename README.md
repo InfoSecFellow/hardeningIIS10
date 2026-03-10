@@ -3,7 +3,7 @@ Hardening for IIS 10 is a project to automate the implementation of security con
 
 In this project, there are 45 scripted security controls and 43 rollback scripts.    
 
-Why are there only 43 rollback scripts and not 45?
+**Why are there only 43 rollback scripts and not 45?**
 
 There are two security controls that only validate the IIS configuration; if necessary, changes must be made manually.
 
