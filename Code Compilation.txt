@@ -3,5 +3,5 @@ pyinstaller --onefile --console --clean --noupx --name CLI_HardeningIIS10 CLI_Ha
 
 
 #Compiling HardeningIIS10 in GUI version
-
 pyinstaller --onefile --console --clean --noupx --name GUI_HardeningIIS10 GUI_HardeningIIS10_v1.0.py
+
