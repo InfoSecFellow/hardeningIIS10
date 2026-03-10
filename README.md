@@ -97,21 +97,21 @@ In critical cases, a full rollback may be the best option.
 
 ----------------------------------------------------------
 
-# Pre req:
+# Pre reqs:
 - IIS 10 installed
 - PowerShell updated (recommended)
 - Run as Administrator
 
-GUI tool was created to run in the Windows Server GUI.
+GUI tool was created to run in the Windows Server GUI.  
 CLI tool was created to run in the Windows Server core.
 
 # Steps to use this tool:
 
-1 - Download all the files in your Windows Server.
-2 - Don't change the folders location and don't change the folder name, the tool works 'as is'.
-3 - Open the tool GUI or CLI as administrator.
-4 - Run the tool and grab a coffee.
-5 - Enjoy!
+1 - Download all the files in your Windows Server.  
+2 - Don't change the folders location and don't change the folder name, the tool works 'as is'.  
+3 - Open the tool GUI or CLI as administrator.  
+4 - Run the tool and grab a coffee.  
+5 - Enjoy!  
 
 ----------------------------------------------------------
 
