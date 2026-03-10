@@ -1,0 +1,34 @@
+### Functions – GUI ###
+ - Manual backup of inetsrv and inetpub
+ - Manual backup of .NET folders
+ - Abort button
+ - HIIS_logs button
+ - Script_Logs button
+ - Run All with full backup + zip, and removal of .json files and folders
+ - Button to run manual hardening (Run Selected)
+ - Button to restart IIS services
+ - Button to clear the log screen
+ - Generates HIIS10 log for debugging
+ - Generates execution log for each PowerShell script
+ - Generates separate logs for the scripts
+ - Creates backups folder
+ - Creates script_logs folder
+ - Creates logs folder
+ - Small status viewer for deployment and rollback
+ - Option for Full or Selected Deployment and Rollback
+
+### Functions – CLI ###
+ - Manual backup of inetsrv and inetpub
+ - Manual backup of .NET folders
+ - Abort command (q + enter)
+ - Run All with full backup + zip, and removal of .json files and folders
+ - Option to run manual hardening (Run Selected)
+ - Command to restart IIS services
+ - Command to clear the log screen
+ - Generates HIIS10 log for debugging
+ - Generates execution log for each PowerShell script
+ - Generates separate logs for the scripts
+ - Creates backups folder
+ - Creates script_logs folder
+ - Creates logs folder
+ - Option for Full or Selected Deployment and Rollback
