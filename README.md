@@ -7,7 +7,7 @@ In this project, there are 45 scripted security controls and 43 rollback scripts
 
 There are two security controls that only validate the IIS configuration; if necessary, changes must be made manually.
 
-- 2.7 - Ensure 'passwordFormat' is not set to clear (can do manual rollback based in the web.config file or using the information stored in the .json backup file).
+- 2.7 - Ensure 'passwordFormat' is not set to clear (can run manual rollback based in the web.config file or using the information stored in the .json backup file).
 - 2.8 - (Check) Ensure 'credentials are not stored' in configuration files (only check the configuration)
 
 # Description of how to use the tool
