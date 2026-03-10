@@ -11,7 +11,7 @@ There are two security controls that only validate the IIS configuration; if nec
 
 # Description of how to use the tool
 
->>> **Before using the tool, ensure that backups of the folders are available and, if possible, create a server snapshot (in case it is a virtual server).** <<< 
+**Before using the tool, ensure that backups of the folders are available and, if possible, create a server snapshot (in case it is a virtual server).** <<< 
 
 There are two main options in the tool:
 
@@ -22,9 +22,9 @@ The **Run All** option applies to both **Deployment** and **Rollback**, in the s
 
 When executing **Run All**, the tool will automatically create backups of the following directories:
 
->> inetpub
->> inetsrv
->> .NET folders
+- inetpub
+- inetsrv
+- .NET folders
 
 However, manual backups can also be performed for additional safety.
 
@@ -48,9 +48,9 @@ It is recommended to always run the **Check Hardening** option before applying I
 (If you prefer to **roll back a single control**, select the desired control from the list and execute **Run Selected**.)
 3 - If the application continues to experience issues even after performing the rollback through the tool, **perform a manual rollback** of the following folders:
 
->> inetpub
->> inetsrv
->> .NET folders
+- inetpub
+- inetsrv
+- .NET folders
 
 However, it is recommended to perform a prior analysis to identify which control is causing the issue and roll back only that specific control. 
 In critical cases, a full rollback may be the best option.
@@ -101,8 +101,8 @@ In critical cases, a full rollback may be the best option.
 - PowerShell updated (recommended)
 - Run as Administrator
 
-  >> GUI tool was created to run in the Windows Server GUI.
-  >> CLI tool was created to run in the Windows Server core.
+GUI tool was created to run in the Windows Server GUI.
+CLI tool was created to run in the Windows Server core.
 
 # Steps to use this tool:
 
