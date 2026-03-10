@@ -11,7 +11,7 @@ There are two security controls that only validate the IIS configuration; if nec
 
 # Description of how to use the tool
 
-**Before using the tool, ensure that backups of the folders are available and, if possible, create a server snapshot (in case it is a virtual server).** <<< 
+**Before using the tool, ensure that backups of the folders are available and, if possible, create a server snapshot (in case it is a virtual server).**
 
 There are two main options in the tool:
 
