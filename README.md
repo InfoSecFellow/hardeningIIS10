@@ -44,10 +44,10 @@ It is recommended to always run the **Check Hardening** option before applying I
 
 # In case of negative impact on the application, how to perform a rollback?
 
-1 - Extract the .zip backup file.
+1 - Extract the .zip backup file.  
 2 - Select the **Hardening Rollback** option and execute **Run All**.
-(If you prefer to **roll back a single control**, select the desired control from the list and execute **Run Selected**.)
-3 - If the application continues to experience issues even after performing the rollback through the tool, **perform a manual rollback** of the following folders:
+(If you prefer to **roll back a single control**, select the desired control from the list and execute **Run Selected**.)  
+3 - If the application continues to experience issues even after performing the rollback through the tool, **perform a manual rollback** of the following folders:  
 
 - inetpub
 - inetsrv
